@@ -8,19 +8,29 @@
 
 .mealGrades {
 margin-top: 24px;
+/* width: max-content; */
 display: flex;
 justify-content: space-around;
+background: gainsboro;
+
 }
 
 .mealGrades input[type="radio"]{
 height: 20px;
 width: 100px;
 appearance: none;
-background: gainsboro;
+/* background: gainsboro; */
 }
 
-.mealGrades input[type="radio"]:checked{
-background-color: grey;
+.meal1:checked{
+background-color: purple;
 }
 
+.meal2:checked
+{
+  background-color: orange;
+}
 
+.meal3:checked{
+background-color: green;
+}
