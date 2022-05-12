@@ -1,0 +1,26 @@
+.dayContainer {
+  margin: 0px 5%;
+}
+
+.date{
+ text-align: start;
+}
+
+.mealGrades {
+margin-top: 24px;
+display: flex;
+justify-content: space-around;
+}
+
+.mealGrades input[type="radio"]{
+height: 20px;
+width: 100px;
+appearance: none;
+background: gainsboro;
+}
+
+.mealGrades input[type="radio"]:checked{
+background-color: grey;
+}
+
+
